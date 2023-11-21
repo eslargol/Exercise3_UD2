@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 // Versión Recursiva
 public class FactorialDeNumero {
-
     
     public static void main(String[] args) {
      // Utilizar un Scanner para obtener la entrada del usuario
@@ -32,6 +31,5 @@ public class FactorialDeNumero {
         } else {
             return numero * calcularFactorial(numero - 1);
         }   
-    }
-    
+    }    
 }
